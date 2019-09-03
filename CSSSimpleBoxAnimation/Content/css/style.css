@@ -1,0 +1,39 @@
+﻿div {
+    width:100px;
+    height:100px;
+    border-radius:50px !important;
+    background-color:darkred;
+    position:relative;
+
+    -webkit-animation-name:example;
+    -webkit-animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes example{
+    0%{
+        background-color:darkred;
+        left:0px;
+        top:100px;
+    }
+    25% {
+        background-color: yellow;
+        left: 92%;
+        top: 100px;
+    }
+    50% {
+        background-color: blue;
+        left: 92%;
+        top: 300px;
+    }
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 300px;
+    }
+    100% {
+        background-color: darkred;
+        left: 0px;
+        top: 100px;
+    }
+}
